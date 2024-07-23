@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', Sans Serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url('background3.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px 20px;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.style{
+    color: white;
+}
+    .btn img {
+        width: 20px;
+        margin-right: 10px;
+    }
+.content {
+    margin-top: 10%;
+    color: #fff;
+    max-width: 600px;
+}
+
+    .content h1 {
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 85px;
+        margin-bottom: 25px;
+    }
+    .card{
+        width: 200px ;
+        height : 230px ;
+        display: inline-block;
+        border-radius: 10px ;
+        padding: 15px 25px ;
+        box-sizing:border-box;
+        cursor:pointer ;
+        margin: 10px 15px ;
+       
+        background-position: center;
+        background-size:cover;
+    }
+.row{
+    display: flex;
+    align-items: center;
+    height: 88%;
+   
+}
+.colm{
+    flex-basis: 50%;
+    display: flex;
+}
+.card1 {
+    background-image: url(paris.png);
+}
+.card2 {
+    background-image: url(egypt.png);
+}
+.card3 {
+    background-image: url(india.png);
+}
+.card4 {
+    background-image: url(japan.png);
+}
+.card5 {
+    background-image: url(finland1.jpg);
+}   
